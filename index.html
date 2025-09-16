@@ -21,16 +21,61 @@ const results = {
     father: "GAVALI LAXMAN NARAYAN",
     mother: "MANGAL",
     state: "MAHARASHTRA",
-    photo: "https://i.postimg.cc/52xzhHtv/IMG-20220716-104430.jpg", // यहां अपनी image path डालें
+    photo: "https://i.postimg.cc/52xzhHtv/IMG-20220716-104430.jpg",
     subjects: [
       {code:"201", subject:"HINDI", theory:91, practical:"-", tma:"00", total:91, result:"P"},
       {code:"202", subject:"ENGLISH", theory:92, practical:"-", tma:"00", total:92, result:"P"},
       {code:"211", subject:"MATHEMATICS", theory:94, practical:"-", tma:"00", total:94, result:"P"},
       {code:"212", subject:"SCIENCE & TECHNOLOGY", theory:90, practical:"-", tma:"00", total:90, result:"P"},
+      {code:"213", subject:"SOCIAL SCIENCE", theory:95, practical:"-", tma:"00", total:95, result:"P"}
+    ],
+    total: 462
+  },
+  "281455924211": {
+    name: ": JITENDRA DIPAK JADHAV",
+    father: "DIPAK RAMCHANDRA JADHAV",
+    mother: "REKHA",
+    state: "MAHARASHTRA",
+    photo: "https://i.postimg.cc/cLwFNNnG/JITNDRA.jpg",
+    subjects: [
+      {code:"201", subject:"HINDI", theory:96, practical:"-", tma:"00", total:96, result:"P"},
+      {code:"202", subject:"ENGLISH", theory:98, practical:"-", tma:"00", total:98, result:"P"},
+      {code:"211", subject:"MATHEMATICS", theory:99, practical:"-", tma:"00", total:99, result:"P"},
+      {code:"212", subject:"SCIENCE & TECHNOLOGY", theory:95, practical:"-", tma:"00", total:95, result:"P"},
       {code:"213", subject:"SOCIAL SCIENCE", theory:95, practical:"-", tma:"00", total:95, result:"P"},
       {code:"00", subject:"00", theory:0, practical:"-", tma:"00", total:0, result:"P"},
     ],
-    total: 462
+    total: 483
+  },
+  "200595209334": {
+    name: "PRIYA SHARMA",
+    father: "AMIT SHARMA",
+    mother: "SEEMA SHARMA",
+    state: "DELHI",
+    photo: "https://i.postimg.cc/fL0zWg7J/student2.jpg",
+    subjects: [
+      {code:"201", subject:"HINDI", theory:88, practical:"-", tma:"00", total:88, result:"P"},
+      {code:"202", subject:"ENGLISH", theory:95, practical:"-", tma:"00", total:95, result:"P"},
+      {code:"211", subject:"MATHEMATICS", theory:99, practical:"-", tma:"00", total:99, result:"P"},
+      {code:"212", subject:"SCIENCE & TECHNOLOGY", theory:92, practical:"-", tma:"00", total:92, result:"P"},
+      {code:"213", subject:"SOCIAL SCIENCE", theory:85, practical:"-", tma:"00", total:85, result:"P"}
+    ],
+    total: 459
+  },
+  "200595209335": {
+    name: "AMAN VERMA",
+    father: "RAJESH VERMA",
+    mother: "ANITA VERMA",
+    state: "UTTAR PRADESH",
+    photo: "https://i.postimg.cc/Zq7GxxB1/student3.jpg",
+    subjects: [
+      {code:"201", subject:"HINDI", theory:55, practical:"-", tma:"00", total:55, result:"P"},
+      {code:"202", subject:"ENGLISH", theory:48, practical:"-", tma:"00", total:48, result:"P"},
+      {code:"211", subject:"MATHEMATICS", theory:39, practical:"-", tma:"00", total:39, result:"F"},
+      {code:"212", subject:"SCIENCE & TECHNOLOGY", theory:46, practical:"-", tma:"00", total:46, result:"P"},
+      {code:"213", subject:"SOCIAL SCIENCE", theory:51, practical:"-", tma:"00", total:51, result:"P"}
+    ],
+    total: 239
   }
 };
 
@@ -56,7 +101,7 @@ function showResult(){
       <tr><td class='header'>NAME</td><td>${data.name}</td></tr>
       <tr><td class='header'>FATHER'S NAME</td><td>${data.father}</td></tr>
       <tr><td class='header'>MOTHER'S NAME</td><td>${data.mother}</td></tr>
-      <tr><td class='header'>ENROLLED FROM STATE</td><td>${data.state}</td></tr>
+      <tr><td class='header'>STATE</td><td>${data.state}</td></tr>
     </table>
     <br>
     <div class='title'>MARKS DETAILS</div>
@@ -84,8 +129,7 @@ function showResult(){
   
   output.innerHTML = html;
 }
-</script>
-</head>
+</script></head>
 <body>
   <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
